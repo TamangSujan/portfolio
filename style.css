@@ -1,0 +1,11 @@
+#nav{
+    background: #3e363f;
+}
+
+#icon-hover{
+    font-size: 32px;
+}
+
+#icon-hover:hover{
+    font-size: 48px;
+}
