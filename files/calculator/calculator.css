@@ -1,0 +1,36 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    width: min-content;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+.calculator input{
+    text-align: right;
+    border: none;
+    height: 2.5em;
+    color: #ffffff;
+    background-color: #131313;
+    font-size: large;
+    width: 9em;
+}
+
+.calculator button{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border: none;
+    margin: 1px;
+}
+
+.darkgray{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.yellow{
+    background-color: #F5B010;
+    color: #ffffff;
+}
