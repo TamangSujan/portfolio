@@ -1,0 +1,40 @@
+:root{
+    --white: #ffffff;
+    --purple: #8d80a8;
+    --darkpurple: #413063;
+}
+
+.gen{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    text-align: right;
+    width: 100%;
+}
+
+label{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.input_ui{
+    display: flex;
+    flex-direction: row;
+}
+
+.input_ui .buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+}
+
+button:hover{
+    background-color: var(--darkpurple);
+}

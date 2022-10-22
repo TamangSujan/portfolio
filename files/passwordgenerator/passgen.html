@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href="../../global.css" rel="stylesheet" type="text/css"/>
+        <link href="passgen.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <script src="passgen.js"></script>
+    <body>
+        <div class="gen">
+            <label id="result">Password</label>
+            <div class="input_ui">
+                <input type="number" id="length" value="8" disabled/>
+                <div class="buttons">
+                    <button onclick="add()">+</button>
+                    <button onclick="sub()">-</button>
+                </div>
+            </div>
+            <select name="choice" id="choice">
+                <option value="numbers">Numbers Only</option>
+                <option value="alphabets">Alphabets Only</option>
+                <option value="alphanumeric">Alphabets & Numbers</option>
+                <option value="all">Alphabets, Numbers & Symbols</option>
+              </select>
+            <button onclick="generate()">Generate</button>
+        </div>
+    </body>
+</html>
