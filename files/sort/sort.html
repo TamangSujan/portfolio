@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link href="../../global.css" rel="stylesheet" type="text/css"/>
+        <link href="sort.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="sort">
+            <p id="timing">Timing: -</p>
+            <div id="sort_values"></div>
+            <select name="choice" id="choice" onchange="scramble()">
+                <option value="simple">Simple</option>
+                <option value="bubble">Bubble</option>
+                <option value="insertion">Insertion</option>
+            </select>
+            <button onclick="sort()" class="round_button">Sort</button>
+         </div>
+    </body>
+    <script src="sort.js"></script>
+</html>

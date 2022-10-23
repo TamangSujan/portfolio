@@ -1,0 +1,21 @@
+:root{
+    --clightgray: #333333;
+}
+
+body{
+    height: fit-content;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+label{
+    display: inline-block;
+    text-align: center;
+    background-color: var(--clightgray);
+    color: white;
+    margin: 1px;
+}

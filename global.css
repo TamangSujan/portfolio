@@ -1,4 +1,22 @@
+:root{
+    --white: #ffffff;
+    --purple: #8d80a8;
+    --darkpurple: #413063;
+}
+
 *{
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+.round_button{
+    border-radius: 8px;
+    height: 2em;
+    background-color: var(--purple);
+    border: none;
+    color: white;
+}
+
+.round_button:hover{
+    background-color: var(--darkpurple);
 }
