@@ -1,5 +1,4 @@
 var arr = [23, 22, 27, 28, 30, 5, 1, 6, 10, 12, 18, 17, 13, 8, 15, 20, 11, 3, 2, 31, 25, 33]
-var carr = [...arr]
 const arrSize = arr.length
 const BOX_WIDTH = "10px"
 const BOX_HEIGHT_TIMES = 3;
@@ -72,7 +71,7 @@ function insertionSort(){
 }
 
 function scramble(){
-    arr = carr
+    arr = [23, 22, 27, 28, 30, 5, 1, 6, 10, 12, 18, 17, 13, 8, 15, 20, 11, 3, 2, 31, 25, 33]
     arrange()
 }
 

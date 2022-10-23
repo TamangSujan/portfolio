@@ -9,6 +9,7 @@
 iframe{
     border: none;
     overflow: hidden;
+    width: 25%;
 }
 
 .iframe{
