@@ -18,9 +18,24 @@ iframe{
     justify-content: center;
 }
 
+.achievements{
+    display: flex;
+    flex-direction: column;
+}
+
+.model{
+    display: grid;
+    max-width: 1200px;
+    align-items: baseline;
+    justify-content: center;
+}
+
 /*320-480px for mobiles*/
 @media (min-width: 480px) {
     .iframe{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .model{
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -30,10 +45,16 @@ iframe{
     .iframe{
         grid-template-columns: repeat(2, 1fr);
     }
+    .model{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 1200px) {
     .iframe{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .model{
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -45,4 +66,32 @@ iframe{
     background-color: var(--red);
     color: var(--white);
     padding: 0.313em;
+}
+
+.model a{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    width: fit-content;
+    row-gap: 0.5em;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.model div div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5em;
+}
+
+.big_image{
+    width: 180px;
+    height: 200px;
+}
+
+.square_image{
+    width: 2em;
+    height: 2em;
 }
