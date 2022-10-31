@@ -2,6 +2,7 @@
     --white: #ffffff;
     --purple: #8d80a8;
     --darkpurple: #413063;
+    --blue: #3b5998;
 }
 
 *{
@@ -12,13 +13,15 @@
 .round_button{
     border-radius: 8px;
     height: 2em;
-    background-color: var(--purple);
-    border: none;
-    color: white;
+    border: 1px solid#3b5998;;
+    background-color: white;
+    color: black;
+    transition: ease 0.25s;
 }
 
 .round_button:hover{
-    background-color: var(--darkpurple);
+    background-color: var(--blue);
+    color: white;
 }
 
 .shadow_box{

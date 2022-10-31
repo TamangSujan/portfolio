@@ -3,7 +3,7 @@
     --black: #1d1e18;
     --red: #dd403a;
     --green: #44cf6c;
-    --purple: #8d80a8;
+    --blue: #3b5998;
 }
 
 a{
@@ -138,6 +138,7 @@ i{
         grid-template-columns: repeat(2, 1fr);
     }
     .side_bar{
+        position: fixed;
         padding: 2em;
         flex-direction: column;
         row-gap: 0.5em;
@@ -147,6 +148,9 @@ i{
     }
     .model{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .center_box{
+        margin-left: 10em;
     }
 }
 
