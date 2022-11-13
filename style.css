@@ -199,15 +199,15 @@ i{
 
 .major_skills{
     margin: 0.75em 0;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
 }
 
 .major_model{
     display: flex;
     flex-direction: column;
     padding: 4em 2em;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
     width: fit-content;
-    border-radius: 0.5em;
     align-items: center;
     row-gap: 0.25em;
 }
