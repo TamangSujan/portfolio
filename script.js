@@ -1,4 +1,4 @@
-var skill_set = [9, 8, 7, 7, 9];
+var skill_set = [9, 8, 7, 7, 9, 7, 7, 7];
 
 var skill_model = document.getElementById("major_skills").childNodes;
 var skill_model_size = (skill_model.length-1)/2
