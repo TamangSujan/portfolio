@@ -31,6 +31,9 @@ a{
 
 .center_box{
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
 }
 
 .side_bar{
@@ -197,12 +200,6 @@ i{
     display: grid;
 }
 
-.major_skills{
-    margin: 0.75em 0;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 0.5em;
-}
-
 .major_model{
     display: flex;
     flex-direction: column;
@@ -248,3 +245,21 @@ i{
     width: 2em;
     height: 2em;
 }
+
+/*
+    Toggle Bar
+*/
+.toggle{
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle > button{
+    display: block;
+    padding: 0.5em;
+    width: 5em;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+

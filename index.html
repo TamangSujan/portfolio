@@ -29,9 +29,14 @@
                     </div>
                 </a>
             </div> 
-            <div class="center_box">
+            <div class="center_box" id="center_box">
+                <div class="toggle" id="toggle">
+                    <button onclick="toggleDiv(1)">Skills</button>
+                    <button onclick="toggleDiv(2)">Career</button>
+                    <button onclick="toggleDiv(3)">Fun</button>
+                    <button onclick="toggleDiv(4)">Misc</button>
+                </div>
                 <div class="skills">
-                    <h2>Skills</h2>
                     <div class="major_skills" id="major_skills">
                         <div class="major_model">
                             <img src="assets/pictures/icons/java.png"/>
@@ -91,7 +96,6 @@
                     </div>
                 </div>
                 <div class="achivements">
-                    <h2>Career</h2>
                     <div class="model">
                         <a class="asha shadow_box" href="https://medicord.ayata.com.np">
                             <img class="big_image" src="assets/pictures/asha.png"/>
@@ -104,7 +108,6 @@
                     </div>
                 </div>
                 <div class="fun">
-                    <h2>Fun Section</h2>
                     <div class="iframe">
                         <iframe src="files/calculator/calculator.html" onload="fitFrame(this)"></iframe>
                         <iframe src="files/passwordgenerator/passgen.html" onload="fitFrame(this)"></iframe>
@@ -114,7 +117,6 @@
                     </div>
                 </div>
                 <div>
-                    <h2>Misc</h2>
                     <div class="video">
                         <video width="100%" height="auto" controls poster="assets/pictures/jadai chu tadha.png">
                             <source src="assets/videos/jadai chu tadha.mp4" type="video/mp4"/>
