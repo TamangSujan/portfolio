@@ -261,5 +261,11 @@ i{
     text-align: center;
     background-color: white;
     border: none;
+    transition: ease 0.25s;
+}
+
+.toggle > button:hover{
+    cursor: pointer;
+    transform: scale(0.8);
 }
 

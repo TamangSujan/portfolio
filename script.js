@@ -18,7 +18,7 @@ for(i=0; i<skill_model_size; i++){
 
 var toggle = document.getElementById("toggle").childNodes;
 for(i=0; i<(toggle.length - 1)/2 - 1; i++){
-    toggle[i*2+1].style.borderRight = "1px solid black";
+    toggle[i*2+1].style.borderRight = "1px solid #DDDDDD";
 }
 
 var contentBox = document.getElementById("center_box").childNodes;
