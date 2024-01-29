@@ -1,0 +1,30 @@
+.home{
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    row-gap: 1em;
+    width: 1088px;
+}
+
+.profile_cover{
+    height: 360px;
+}
+
+.profile_cover > img{
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 100%;
+}
+
+.profile_description{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: white;
+    font-size: 1.25em;
+    height: 100%;
+    padding: 1em;
+    word-wrap: break-word;
+}

@@ -4,6 +4,9 @@
     --red: #dd403a;
     --green: #44cf6c;
     --blue: #3b5998;
+    --lighest-gray: #FBFBFB;
+    --profile-image-dimension: 224px;
+    --center-box-glue-dimension: 262px;
 }
 
 a{
@@ -11,10 +14,9 @@ a{
 }
 
 .main_box{
-    margin: auto;
-    width: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 100%;
 }
 
 .nav{
@@ -27,13 +29,19 @@ a{
 
 .content_box{
     display: flex;
+    width: 100%;
+    background-color: var(--lighest-gray);
+    overflow-y: hidden;
 }
 
 .center_box{
-    padding: 2em;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 1em;
+}
+
+.content_box_glue{
+    width: var(--center-box-glue-dimension);
 }
 
 .side_bar{
@@ -85,25 +93,29 @@ iframe{
 
 
 .vertical_text{
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: white;
     border-radius: 50%;
-    width: 2em;
-    height: 2em;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 2.5em;
+    justify-content: center;
+    width: 2.5em;
 }
 
 i{
     display: block;
 }
 
+.side_bar{
+    background-color: white;
+}
+
 /*320-480px for mobiles*/
 @media (min-width: 0px) {
     .side_bar{
-        padding: 1em;
+        /*padding: 1em;*/
         flex-direction: row;
-        column-gap: 0.5em;
     }
     .content_box{
         flex-direction: column;
@@ -122,9 +134,9 @@ i{
 /* 768px for Tabs*/
 @media (min-width: 600px) {
     .side_bar{
-        padding: 1em;
+        left: 0;
+        /*padding: 1em;*/
         flex-direction: row;
-        column-gap: 0.5em;
     }
     .content_box{
         flex-direction: column;
@@ -144,24 +156,49 @@ i{
     .iframe{
         grid-template-columns: repeat(2, 1fr);
     }
+
     .side_bar{
+        height: 100%;
         position: fixed;
-        padding: 2em;
         flex-direction: column;
-        row-gap: 0.5em;
+        top: 0;
+        z-index: 1;
     }
+
     .content_box{
         flex-direction: row;
     }
     .model{
         grid-template-columns: repeat(2, 1fr);
     }
-    .center_box{
-        margin-left: 10em;
-    }
     .major_skills{
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+.side_bar_profile_image{
+    width: var(--profile-image-dimension);
+    height: var(--profile-image-dimension);
+    padding: 1em;
+}
+
+.side_bar_profile_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side_bar_button{
+    font-size: 0.8em;
+    padding: 0.75em 0.5em;
+    /*height: 2.5em;*/
+    cursor: pointer;
+    align-content: center;
+}
+
+.side_bar_button:hover{
+    background-color: #C0C0C0;
 }
 
 .model>a{

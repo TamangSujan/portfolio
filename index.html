@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sujan: Java Developer</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="profile.css"/>
+    <link rel="stylesheet" type="text/css" href="dock.css"/>
     <link rel="stylesheet" type="text/css" href="global.css"/>
     <link rel="icon" type="image/x-icon" href="assets/pictures/backend-development.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main_box">
-        <div class="nav">
-            <h1>Hi, I am Sujan</h1>
-            <label>Page Under Development</label>
+        <div class="side_bar" id="side_bar">
+            <div class="side_bar_profile_image">
+                <img src="assets/pictures/profile/profile.jpg">
+            </div>
+            <div class="side_bar_button" onclick="toggleDiv(0)">Profile</div>
+            <div class="side_bar_button" onclick="toggleDiv(1)">Skills</div>
+            <div class="side_bar_button" onclick="toggleDiv(2)">Certifications</div>
+            <div class="side_bar_button" onclick="toggleDiv(3)">Projects</div>
+            <div class="side_bar_button" onclick="toggleDiv(4)">Contact</div>
+            <div class="side_bar_button" onclick="toggleDiv(5)">Misc</div>
         </div>
         <div class="content_box">
-            <div class="side_bar">
-                <a href="https://www.facebook.com/profile.php?id=100058257780620">
-                    <div class="vertical_text">
-                        <i class="fa-brands fa fa-facebook-f" style="color: #3b5998;"></i>
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/sujan_mktn/">
-                    <div class="vertical_text">
-                        <i class="fa-brands fa fa-instagram" style="color: #cd486b;"></i>
-                    </div>
-                </a>
-            </div> 
+            <div class="content_box_glue"></div>
             <div class="center_box" id="center_box">
-                <div class="toggle" id="toggle">
-                    <button onclick="toggleDiv(1)">Skills</button>
-                    <button onclick="toggleDiv(2)">Career</button>
-                    <button onclick="toggleDiv(3)">Fun</button>
-                    <button onclick="toggleDiv(4)">Misc</button>
+                <div class="home">
+                    <div class="profile_cover">
+                        <img src="assets/pictures/profile/cover.jpg">
+                    </div>
+                    <div class="profile_description">
+                        Greetings! I'm Sujan, a skillful Java developer passionate about building scalable and innovative software solutions. Over the past years, I've honed my skills in Java development and tackling diverse challenges.
+                    </div>
                 </div>
                 <div class="skills">
                     <div class="major_skills" id="major_skills">
@@ -95,7 +95,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="achivements">
+                <div class="achievements">Achievements</div>
+                <div class="projects">
                     <div class="model">
                         <a class="asha shadow_box" href="https://medicord.ayata.com.np">
                             <img class="big_image" src="assets/pictures/asha.png"/>
@@ -107,30 +108,51 @@
                         </a>
                     </div>
                 </div>
-                <div class="fun">
-                    <div class="iframe">
-                        <iframe src="files/calculator/calculator.html" onload="fitFrame(this)"></iframe>
-                        <iframe src="files/passwordgenerator/passgen.html" onload="fitFrame(this)"></iframe>
-                        <iframe src="files/sort/sort.html" onload="fitFrame(this)"></iframe>
-                        <iframe src="files/notepad/notepad.html" onload="fitFrame(this)"></iframe>
-                        <iframe src="files/fibonacci/fibonacci.html" onload="fitFrame(this)"></iframe>
-                    </div>
-                </div>
-                <div>
-                    <div class="video">
-                        <video width="100%" height="auto" controls poster="assets/pictures/jadai chu tadha.png">
-                            <source src="assets/videos/jadai chu tadha.mp4" type="video/mp4"/>
-                            Your browser does not support the video element.
-                        </video>
-                    </div>
-                    <div class="audio">
-                        <audio controls>
-                            <source src="assets/musics/faded.mp3" type="audio/mp3">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </div>
-                </div>
+                <div class="contact">Contact</div>
+                <div class="misc">Misc</div>
+<!--                <div class="fun">-->
+<!--                    <div class="iframe">-->
+<!--                        <iframe src="files/calculator/calculator.html" onload="fitFrame(this)"></iframe>-->
+<!--                        <iframe src="files/passwordgenerator/passgen.html" onload="fitFrame(this)"></iframe>-->
+<!--                        <iframe src="files/sort/sort.html" onload="fitFrame(this)"></iframe>-->
+<!--                        <iframe src="files/notepad/notepad.html" onload="fitFrame(this)"></iframe>-->
+<!--                        <iframe src="files/fibonacci/fibonacci.html" onload="fitFrame(this)"></iframe>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <div class="video">-->
+<!--                        <video width="100%" height="auto" controls poster="assets/pictures/jadai chu tadha.png">-->
+<!--                            <source src="assets/videos/jadai chu tadha.mp4" type="video/mp4"/>-->
+<!--                            Your browser does not support the video element.-->
+<!--                        </video>-->
+<!--                    </div>-->
+<!--                    <div class="audio">-->
+<!--                        <audio controls>-->
+<!--                            <source src="assets/musics/faded.mp3" type="audio/mp3">-->
+<!--                            Your browser does not support the audio element.-->
+<!--                        </audio>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
+        </div>
+    </div>
+    <div class="dock">
+        <div class="dock-link">
+            <a href="https://www.facebook.com/profile.php?id=100058257780620">
+                <div class="vertical_text">
+                    <i class="fa-brands fa fa-facebook-f" style="color: #3b5998;"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/sujan_mktn/">
+                <div class="vertical_text">
+                    <i class="fa-brands fa fa-instagram" style="color: #cd486b;"></i>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sujan-moktan/">
+                <div class="vertical_text">
+                    <i class="fa-brands fa fa-linkedin" style="color: #0B67C2;"></i>
+                </div>
+            </a>
         </div>
     </div>
     <script src="script.js" language="Javascript" type="text/javascript"></script>

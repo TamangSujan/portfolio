@@ -16,26 +16,27 @@ for(i=0; i<skill_model_size; i++){
     }
 }
 
-var toggle = document.getElementById("toggle").childNodes;
-for(i=0; i<(toggle.length - 1)/2 - 1; i++){
-    toggle[i*2+1].style.borderRight = "1px solid #DDDDDD";
-}
+var activeButton = document.getElementById("side_bar").children;
 
-var contentBox = document.getElementById("center_box").childNodes;
+var contentBox = document.getElementById("center_box").children;
 
 //Show only first toggle ie skills
-for(i=2; i<(contentBox.length-1)/2; i++){
-    contentBox[i*2+1].style.display = "none";
+for(let i=1; i<contentBox.length; i++){
+    contentBox[i].style.display = "none";
 }
 
 //Toggle Functions
 
 function toggleDiv(value){
-    for(i=1; i<(contentBox.length-1)/2; i++){
-        if(i==value){
-            contentBox[i*2+1].style.display = "block";
+    for(let i=0; i<contentBox.length; i++){
+        if(i===value){
+            activeButton[i+1].style.backgroundColor = '#C0C0C0';
+            contentBox[i].style.display = "flex";
         }else{
-            contentBox[i*2+1].style.display = "none";
+            activeButton[i+1].style.backgroundColor = 'white';
+            contentBox[i].style.display = "none";
         }
     }
 }
+
+toggleDiv(0)

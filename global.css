@@ -10,10 +10,20 @@
     font-family: sans-serif;
 }
 
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
 .round_button{
     border-radius: 8px;
     height: 2em;
-    border: 1px solid#3b5998;;
+    border: 1px solid #3b5998;;
     background-color: white;
     color: black;
     transition: ease 0.25s;
