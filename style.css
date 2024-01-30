@@ -18,6 +18,10 @@ a{
     height: 100vh;
 }
 
+.glue{
+    height: 7em;
+}
+
 @media (min-width: 0px) {
     .main_box{
         display: flex;

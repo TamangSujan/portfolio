@@ -18,6 +18,7 @@ html, body{
 
 body{
     position: relative;
+    /* Preventing Scroll In Desktop For Sticky Dock*/
     overflow-y: hidden;
 }
 

@@ -1,5 +1,6 @@
 .certifications{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .major_certifications{
