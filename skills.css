@@ -1,7 +1,6 @@
 .skills{
     background-color: white;
     width: 100%;
-    height: max-content;
 }
 
 .white{
@@ -23,6 +22,10 @@
         grid-column-gap: 3em;
         grid-row-gap: 2em;
     }
+
+    .skills {
+        height: auto;
+    }
 }
 
 @media (min-width: 450px) {
@@ -32,6 +35,10 @@
         grid-column-gap: 3em;
         grid-row-gap: 2em;
     }
+
+    .skills {
+        height: auto;
+    }
 }
 
 @media (min-width: 600px) {
@@ -39,6 +46,10 @@
         grid-template-columns: repeat(4, 0.1fr);
         grid-column-gap: 3em;
         grid-row-gap: 2em;
+    }
+
+    .skills {
+        height: 100%;
     }
 }
 
@@ -48,6 +59,10 @@
         grid-template-columns: repeat(5, 1fr);
         grid-column-gap: 3em;
         grid-row-gap: 2em;
+    }
+
+    .skills {
+        height: 100%;
     }
 }
 

@@ -21,4 +21,27 @@ function toggleDiv(value){
     }
 }
 
-toggleDiv(0)
+function dock(){
+    let dock = document.getElementById('dock');
+    let dockCaller = document.getElementById('dock_caller');
+    let status = dock.style.display;
+    if(status === 'none'){
+        dock.style.display = 'flex';
+        dockCaller.style.backgroundColor = 'black';
+        dockCaller.style.color = 'white';
+    }else{
+        dock.style.display = 'none';
+        dockCaller.style.backgroundColor = 'white';
+        dockCaller.style.color = 'black';
+    }
+
+}
+
+function enableDock(){
+    let dockCaller = document.getElementById('dock_caller');
+    dockCaller.style.backgroundColor = 'black';
+    dockCaller.style.color = 'white';
+}
+
+toggleDiv(0);
+enableDock();
