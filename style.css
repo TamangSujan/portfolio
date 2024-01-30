@@ -4,7 +4,7 @@
     --red: #dd403a;
     --green: #44cf6c;
     --blue: #3b5998;
-    --lighest-gray: #FBFBFB;
+    --lighest-gray: #EBEBEB;
     --profile-image-dimension: 224px;
     --center-box-glue-dimension: 264px;
 }
@@ -172,7 +172,7 @@ i{
         grid-template-columns: repeat(2, 1fr);
     }
     .major_skills{
-        grid-template-columns: repeat(11, 0.1fr);
+        grid-template-columns: repeat(10, 0.1fr);
         grid-column-gap: 3em;
         grid-row-gap: 2em;
     }
@@ -263,25 +263,6 @@ i{
     width: 0.75em;
     height: 0.75em;
     margin: 0 0.1em;
-}
-
-.minor_skills{
-    display: flex;
-    flex-direction: row;
-}
-
-.minor_model{
-    padding: 1em;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
-    width: 4em;
-    height: 4em;
-    border-radius: 0.5em;
-    margin: 0 0.25em;
-}
-
-.minor_model > img{
-    width: 2em;
-    height: 2em;
 }
 
 /*

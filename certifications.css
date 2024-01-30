@@ -1,0 +1,39 @@
+.major_certifications{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.major_certification_model{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    padding: 2em;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.major_certification_image > img{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+
+.major_certification_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+
+.major_certification_info > a > button{
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.major_certification_info > a > button:hover{
+    background-color: #C0C0C0;
+}
