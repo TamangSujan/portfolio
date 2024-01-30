@@ -12,7 +12,7 @@ for(let i=1; i<contentBox.length; i++){
 function toggleDiv(value){
     for(let i=0; i<contentBox.length; i++){
         if(i===value){
-            activeButton[i+1].style.backgroundColor = '#C0C0C0';
+            activeButton[i+1].style.backgroundColor = '#dedede';
             contentBox[i].style.display = "flex";
         }else{
             activeButton[i+1].style.backgroundColor = 'white';

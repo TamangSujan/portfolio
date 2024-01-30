@@ -7,6 +7,7 @@
     display: flex;
     font-size: 1.5em;
     text-align: center;
+    height: fit-content;
 }
 
 .side_bar > a{
@@ -46,8 +47,7 @@
 @media (min-width: 0px) {
     .side_bar{
         flex-direction: row;
-        height: 1.5em;
-        margin: 0.2em;
+        padding: 0.25em;
     }
 
     .side_bar_profile_image{
@@ -73,8 +73,7 @@
 @media (min-width: 600px) {
     .side_bar{
         flex-direction: row;
-        height: 2em;
-        margin: 0.2em;
+        padding: 0.5em;
     }
 
     .side_bar_profile_image{
