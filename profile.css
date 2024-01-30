@@ -25,6 +25,24 @@
     background-color: white;
     font-size: 1.25em;
     height: 100%;
-    padding: 1em;
+    padding: 2em;
     word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75em;
+}
+
+.profile_data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25em;
+}
+
+.profile_data_key{
+    font-weight: bold;
+}
+
+.profile_data_value{
+    font-size: 0.8em;
+    text-align: justify;
 }

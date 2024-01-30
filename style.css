@@ -288,3 +288,18 @@ i{
     transform: scale(0.8);
 }
 
+.coming_soon{
+    width: 90%;
+    height: 340px;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+
+.coming_soon > img{
+    width: 720px;
+    height: 300px;
+}
