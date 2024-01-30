@@ -93,7 +93,23 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1130px) {
+    .home {
+        width: 800px;
+    }
+
+    .profile_cover > img {
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+
+    .profile_description {
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+}
+
+@media (min-width: 1400px) {
     .home {
         width: 1088px;
     }

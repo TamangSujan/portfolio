@@ -15,13 +15,13 @@ a{
 
 .main_box{
     background-color: var(--lighest-gray);
+    height: 90%;
 }
 
 @media (min-width: 0px) {
     .main_box{
         display: flex;
         flex-direction: column;
-        height: 100%;
     }
 }
 
@@ -29,7 +29,6 @@ a{
     .main_box{
         display: flex;
         flex-direction: column;
-        height: 100%;
     }
 }
 
@@ -37,7 +36,6 @@ a{
     .main_box{
         display: flex;
         flex-direction: row;
-        height: 100%;
     }
 }
 
