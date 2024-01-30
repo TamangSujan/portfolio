@@ -1,0 +1,47 @@
+.coming_soon{
+    height: 340px;
+    padding: 1em;
+    background-color: white;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 0px) {
+    .coming_soon {
+        height: 160px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .coming_soon > img{
+        width: 300px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .coming_soon {
+        height: 220px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .coming_soon > img{
+        width: 420px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .coming_soon {
+        height: 290px;
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .coming_soon > img{
+        width: 540px;
+        height: 100%;
+    }
+}

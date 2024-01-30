@@ -18,6 +18,7 @@ html, body{
 
 body{
     position: relative;
+    overflow-y: hidden;
 }
 
 .round_button{

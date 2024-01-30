@@ -14,9 +14,31 @@ a{
 }
 
 .main_box{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+    background-color: var(--lighest-gray);
+}
+
+@media (min-width: 0px) {
+    .main_box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .main_box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .main_box{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
 }
 
 .nav{
@@ -42,21 +64,7 @@ a{
 
 .content_box_glue{
     width: var(--center-box-glue-dimension);
-}
-
-.side_bar{
-    text-align: center;
-    font-size: 1.5em;
-    display: flex;
-}
-
-.side_bar>a{
-    position: relative;
-    transition: ease-in 0.25s;
-}
-
-.side_bar>a:hover{
-    transform: scale(0.8);
+    background-color: red;
 }
 
 iframe{
@@ -107,10 +115,6 @@ i{
     display: block;
 }
 
-.side_bar{
-    background-color: white;
-}
-
 /*320-480px for mobiles*/
 @media (min-width: 0px) {
     .side_bar{
@@ -125,9 +129,6 @@ i{
     }
     .model{
         grid-template-columns: repeat(1, 1fr);
-    }
-    .major_skills{
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -146,9 +147,6 @@ i{
     }
     .model{
         grid-template-columns: repeat(2, 1fr);
-    }
-    .major_skills{
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -171,36 +169,6 @@ i{
     .model{
         grid-template-columns: repeat(2, 1fr);
     }
-    .major_skills{
-        grid-template-columns: repeat(10, 0.1fr);
-        grid-column-gap: 3em;
-        grid-row-gap: 2em;
-    }
-}
-
-.side_bar_profile_image{
-    width: var(--profile-image-dimension);
-    height: var(--profile-image-dimension);
-    padding: 1em;
-}
-
-.side_bar_profile_image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.side_bar_button{
-    font-size: 0.8em;
-    padding: 0.75em 0.5em;
-    /*height: 2.5em;*/
-    cursor: pointer;
-    align-content: center;
-}
-
-.side_bar_button:hover{
-    background-color: #C0C0C0;
 }
 
 .model>a{
@@ -286,20 +254,4 @@ i{
 .toggle > button:hover{
     cursor: pointer;
     transform: scale(0.8);
-}
-
-.coming_soon{
-    width: 90%;
-    height: 340px;
-    padding: 1em;
-    background-color: white;
-    border-radius: 1em;
-    margin: 1em auto;
-    display: flex;
-    justify-content: center;
-}
-
-.coming_soon > img{
-    width: 720px;
-    height: 300px;
 }

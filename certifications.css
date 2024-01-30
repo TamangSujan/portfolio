@@ -1,9 +1,13 @@
+.certifications{
+
+}
+
 .major_certifications{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 1em;
     margin: 0 auto;
     padding: 1em;
+    row-gap: 1em;
+    column-gap: 1em;
 }
 
 .major_certification_model{
@@ -36,4 +40,34 @@
 
 .major_certification_info > a > button:hover{
     background-color: #C0C0C0;
+}
+
+@media (min-width: 0px) {
+    .major_certifications{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 600px) {
+    .major_certifications{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .major_certifications{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1250px) {
+    .major_certifications{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1500px) {
+    .major_certifications{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

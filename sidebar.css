@@ -1,0 +1,124 @@
+:root{
+    --profile-image-dimension: 224px;
+}
+
+.side_bar{
+    background-color: white;
+    display: flex;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.side_bar > a{
+    position: relative;
+    transition: ease-in 0.25s;
+}
+
+.side_bar > a:hover{
+    transform: scale(0.8);
+}
+
+.side_bar_profile_image{
+    width: var(--profile-image-dimension);
+    height: var(--profile-image-dimension);
+    padding: 1em;
+}
+
+.side_bar_profile_image > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side_bar_button{
+    font-size: 0.8em;
+    padding: 0.75em 0.5em;
+    /*height: 2.5em;*/
+    cursor: pointer;
+    align-content: center;
+}
+
+.side_bar_button:hover{
+    background-color: #C0C0C0;
+}
+
+@media (min-width: 0px) {
+    .side_bar{
+        flex-direction: row;
+        height: 1.5em;
+        margin: 0.2em;
+    }
+
+    .side_bar_profile_image{
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        height: max-content;
+        width: max-content;
+        margin: 0 0.75em 0 0;
+    }
+
+    .side_bar_profile_image > img{
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .side_bar_button{
+        font-size: 0.6em;
+        height: inherit;
+    }
+}
+
+@media (min-width: 600px) {
+    .side_bar{
+        flex-direction: row;
+        height: 2em;
+        margin: 0.2em;
+    }
+
+    .side_bar_profile_image{
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        height: max-content;
+        width: max-content;
+        margin: 0 0.75em 0 0;
+    }
+
+    .side_bar_profile_image > img{
+        width: 2em;
+        height: 2em;
+    }
+
+    .side_bar_button{
+        font-size: 0.75em;
+        height: inherit;
+    }
+}
+
+@media (min-width: 900px) {
+    .side_bar{
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+    }
+
+    .side_bar_profile_image{
+        height: max-content;
+        width: max-content;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .side_bar_profile_image > img{
+        width: var(--profile-image-dimension);
+        height: var(--profile-image-dimension);
+        padding: 1em;
+    }
+
+    .side_bar_button{
+        font-size: 0.8em;
+        height: max-content;
+    }
+}
