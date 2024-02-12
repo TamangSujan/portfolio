@@ -42,7 +42,7 @@ let projects = [
     },
     {
         'logo': 'assets/pictures/icons/asha.png',
-        'title': 'Social Security Fund',
+        'title': 'Asha Connect',
         'association': 'Ayata Inc.',
         'association_url': 'https://ayata.com.np/',
         'project_url': 'https://asha.ayata.com.np/index.php',
