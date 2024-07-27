@@ -51,6 +51,28 @@ let projects = [
             '<b>Asha Connect</b> is designed to provide health workers with a easy experience to record medical and demographic information.\n' +
             '<br><br>' +
             'My role in the project was to convert the running project on Node.js to Java platform with Spring Boot framework. Through my work on "Asha Connect," I gained valuable experience in crafting user-friendly applications that bridge the gap between health worker and technology.'
+    },
+    {
+        'logo': 'assets/pictures/icons/algorithm.png',
+        'title': 'Algorithm',
+        'association': 'Self',
+        'association_url': 'https://sujanmoktan.com.np',
+        'project_url': 'https://github.com/TamangSujan/c-algorithm',
+        'description': '<b>Algorithm</b> is a fundamental, vital and core knowledge needed for any developer in programming field.\n' +
+            '<br><br>' +
+            'It enhances one logical, reasoning and critical thinking. Writing algorithm using <b>C</b> language, truly increase ones skills as you are in charge of handling pointers, allocating and deallocating memory.\n' +
+            '<br><br>' +
+            'You can find the source code from <a href="https://github.com/TamangSujan/c-algorithm">here</a>.\n' +
+            '<br><br>' +
+            'So far I have written: \n' +
+            '<br><b>Sort</b>: Bubble | Insertion | Selection | Counting | Quick | Merge | Radix <br>' +
+            '<b>Search</b>: Linear | Binary<br>' +
+            '<b>Hash</b>: Hash Set | Hash Map<br>' +
+            '<b>List</b>: Singly Linked List | Doubly Linked List<br>' +
+            '<b>Tree</b>: Avl Tree<br>' +
+            '<b>Others</b>: Stack | Queue' +
+            '<br><br>' +
+            '<b>P.S.</b> There exist none alogorithm which suits for every problem. One must select carefully as each algorithm has pros and cons.'
     }
 ]
 

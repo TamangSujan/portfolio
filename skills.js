@@ -104,6 +104,10 @@ let skills = [
         'label': 'Web Socket'
     },
     {
+        'image': 'assets/pictures/icons/c.png',
+        'label': 'C'
+    },
+    {
         'image': 'assets/pictures/icons/c++.png',
         'label': 'C++'
     },

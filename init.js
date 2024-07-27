@@ -1,1 +1,1 @@
-toggleDiv(4)
+toggleDiv(0)
