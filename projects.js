@@ -54,7 +54,7 @@ let projects = [
     },
     {
         'logo': 'assets/pictures/icons/algorithm.png',
-        'title': 'Algorithm',
+        'title': 'Algorithm (Personal)',
         'association': 'Self',
         'association_url': 'https://sujanmoktan.com.np',
         'project_url': 'https://github.com/TamangSujan/c-algorithm',
@@ -73,7 +73,24 @@ let projects = [
             '<b>Others</b>: Stack | Queue' +
             '<br><br>' +
             '<b>P.S.</b> There exist none alogorithm which suits for every problem. One must select carefully as each algorithm has pros and cons.'
-    }
+    },
+    {
+        'logo': 'assets/pictures/icons/web-server.png',
+        'title': 'J Web Server (Personal)',
+        'association': 'Self',
+        'association_url': 'https://sujanmoktan.com.np',
+        'project_url': 'https://github.com/TamangSujan/web-server/',
+        'description': 'J Web Server is a personal project in order to challenge self and leverage knowledge and skills for web technologies.\n' +
+            '<br><br>' +
+            'It is written purely in Java without any external libraries. Techniques like <b>Dynamic Class Loading</b>, <b>Reflection</b>, <b>Annotation</b> etc. is used.\n' +
+            '<br><br>' +
+            '<b>Feature</b>' +
+                '<ul>' +
+                    '<li><b>@GetApi</b>(url="/some-endpoint"): Simple basic get request can be made using this annotation with url value.</li>' +
+                '</ul>' +
+            '<br>' +
+            'The sole purpose of this project is to understand how request and response are being done in real world projects.'
+    },
 ]
 
 function createProjects(page){
