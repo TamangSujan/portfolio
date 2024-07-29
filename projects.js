@@ -62,7 +62,7 @@ let projects = [
             '<br><br>' +
             'It enhances one logical, reasoning and critical thinking. Writing algorithm using <b>C</b> language, truly increase ones skills as you are in charge of handling pointers, allocating and deallocating memory.\n' +
             '<br><br>' +
-            'You can find the source code from <a href="https://github.com/TamangSujan/c-algorithm">here</a>.\n' +
+            'You can find the source code from <a href="https://github.com/TamangSujan/c-algorithm" target="_blank">here</a>.\n' +
             '<br><br>' +
             'So far I have written: \n' +
             '<br><b>Sort</b>: Bubble | Insertion | Selection | Counting | Quick | Merge | Radix <br>' +
@@ -83,10 +83,12 @@ let projects = [
         'description': 'J Web Server is a personal project in order to challenge self and leverage knowledge and skills for web technologies.\n' +
             '<br><br>' +
             'It is written purely in Java without any external libraries. Techniques like <b>Dynamic Class Loading</b>, <b>Reflection</b>, <b>Annotation</b> etc. is used.\n' +
+            'You can find source code <a href="https://github.com/TamangSujan/web-server/" target="_blank">here</a>.' +
             '<br><br>' +
             '<b>Feature</b>' +
                 '<ul>' +
                     '<li><b>@GetApi</b>(url="/some-endpoint"): Simple basic get request can be made using this annotation with url value.</li>' +
+                    '<li><b>@ApiRequestParam</b>(key="someKeyName"): Can be written inside function to map url query to function param for <b>@GetApi</b></li>' +
                 '</ul>' +
             '<br>' +
             'The sole purpose of this project is to understand how request and response are being done in real world projects.'
