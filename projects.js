@@ -89,7 +89,9 @@ let projects = [
                 '<ul>' +
                     '<li><b>@GetApi</b>(url="/some-endpoint"): Simple basic get request can be made using this annotation with url value.</li>' +
                     '<li><b>@ApiRequestParam</b>(key="someKeyName"): Can be written inside function to map url query to function param for <b>@GetApi</b></li>' +
-                '</ul>' +
+                    '<li><b>@ApiPathVariable</b>(name="someKeyName"): Can be written inside function to map url variable to function param for <b>@GetApi</b>.' +
+                    '<li>Check out READ.me </li>'
+            '</ul>' +
             '<br>' +
             'The sole purpose of this project is to understand how request and response are being done in real world projects.'
     },
