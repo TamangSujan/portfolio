@@ -75,6 +75,25 @@ let projects = [
             '<b>P.S.</b> There exist none alogorithm which suits for every problem. One must select carefully as each algorithm has pros and cons.'
     },
     {
+        'logo': 'assets/pictures/icons/design-pattern.png',
+        'title': 'Design Pattern (Personal)',
+        'association': 'Self',
+        'association_url': 'https://sujanmoktan.com.np',
+        'project_url': 'https://github.com/TamangSujan/design-pattern',
+        'description': 'Design Pattern is a technique of writing solution for a re-occuring problem. The pattern is not a specific code but a general concept for solving a problem.\n' +
+            '<br>Pattern are often confused with algorithms. Algorithm describes clear set of instructions to achieve a goal while pattern is more high level description of a solution.' +
+            '<br><br>' +
+            'Pattern consist of:\n' +
+            '<ul>' +
+            '<li><b>Intent</b>: Describes both problem and solution.</li>'+
+            '<li><b>Structure</b>: How classes are related.</li>'+
+            '<li><b>Code</b>: To grasp it easier.</li>'+
+            '</ul>'+
+            '<br>' +
+            'It is written purely in Java. You can find source code <a href="https://github.com/TamangSujan/design-pattern" target="_blank">here</a>.' +
+            'Credit: <b><a href="https://refactoring.guru/design-patterns" target="_blank">Refactoring Guru</a></b> provides really awesome content which makes it easier to understant design pattern.'
+    },
+    {
         'logo': 'assets/pictures/icons/web-server.png',
         'title': 'J Web Server (Personal)',
         'association': 'Self',
