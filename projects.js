@@ -104,7 +104,7 @@ let projects = [
             'It is written purely in Java without any external libraries. Techniques like <b>Dynamic Class Loading</b>, <b>Reflection</b>, <b>Annotation</b> etc. is used.\n' +
             'You can find source code <a href="https://github.com/TamangSujan/web-server/" target="_blank">here</a>.' +
             '<br><br>' +
-            '<b>Feature</b>' +
+            '<b>Features</b>' +
                 '<ul>' +
                     '<li><b>@GetApi</b>(url="/some-endpoint"): Simple basic get request can be made using this annotation with url value.</li>' +
                     '<li><b>@ApiRequestParam</b>(key="someKeyName"): Can be written inside function to map url query to function param for <b>@GetApi</b></li>' +
@@ -113,6 +113,29 @@ let projects = [
             '</ul>' +
             '<br>' +
             'The sole purpose of this project is to understand how request and response are being done in real world projects.'
+    },
+    {
+        'logo': 'assets/pictures/icons/interpreter.png',
+        'title': 'JLox - Interpreter (Knowledge)',
+        'association': 'Self',
+        'association_url': 'https://sujanmoktan.com.np',
+        'project_url': 'https://github.com/TamangSujan/jlox',
+        'description': 'JLox - Interpreter is a java based interpreter which is handcrafted by Rober Nystrom in his web page.\n' +
+            '<br><br>' +
+            'It is written purely in Java without any external libraries. Techniques like <b>Recursive Descent Parser</b>, <b>Auto Code Generation</b> is used in his page.\n' +
+            'Auto generation of code has been omitted on my source code in order to understand what is really going on.' +
+            'You can find this knowledge from <a href="https://craftinginterpreters.com/a-tree-walk-interpreter.html" target="_blank">here</a>.' +
+            'You can find my source code <a href="https://github.com/TamangSujan/jlox" target="_blank">here</a>.' +
+            '<br><br>' +
+            '<b>Features</b>' +
+            '<ul>' +
+            '<li>Inheritance</li>' +
+            '<li>Class</li>' +
+            '<li>Methods</li>' +
+            '<li>Variable</li>' +
+            '</ul>' +
+            '<br>' +
+            'The sole purpose of this project is to understand how interpreter is working behind the scene.'
     },
 ]
 
