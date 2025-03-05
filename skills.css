@@ -78,15 +78,15 @@
 
 @media (min-width: 1250px) {
     .major_skills{
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-column-gap: 3em;
-        grid-row-gap: 1em;
+        grid-row-gap: 2em;
     }
 }
 
 @media (min-width: 1550px) {
     .major_skills{
-        grid-template-columns: repeat(9, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-column-gap: 3em;
         grid-row-gap: 1em;
     }
