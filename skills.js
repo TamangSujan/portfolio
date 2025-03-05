@@ -47,18 +47,6 @@ let skills = [
         'label': 'Redis'
     },
     {
-        'image': 'assets/pictures/icons/elastic-search.png',
-        'label': 'Elastic Search'
-    },
-    {
-        'image': 'assets/pictures/icons/kibana.png',
-        'label': 'Kibana'
-    },
-    {
-        'image': 'assets/pictures/icons/angular.png',
-        'label': 'Angular'
-    },
-    {
         'image': 'assets/pictures/icons/html.png',
         'label': 'HTML'
     },
@@ -69,14 +57,6 @@ let skills = [
     {
         'image': 'assets/pictures/icons/javascript.png',
         'label': 'Javascript'
-    },
-    {
-        'image': 'assets/pictures/icons/selenium.png',
-        'label': 'Selenium'
-    },
-    {
-        'image': 'assets/pictures/icons/cucumber.png',
-        'label': 'Cucumber'
     },
     {
         'image': 'assets/pictures/icons/json.png',
@@ -104,20 +84,8 @@ let skills = [
         'label': 'Web Socket'
     },
     {
-        'image': 'assets/pictures/icons/c.png',
-        'label': 'C'
-    },
-    {
-        'image': 'assets/pictures/icons/c++.png',
-        'label': 'C++'
-    },
-    {
         'image': 'assets/pictures/icons/deep-learning.png',
         'label': 'Deep Learning'
-    },
-    {
-        'image': 'assets/pictures/icons/python.png',
-        'label': 'Python'
     },
     {
         'image': 'assets/pictures/icons/linux.png',
