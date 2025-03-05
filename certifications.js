@@ -1,5 +1,11 @@
 let certifications = [
     {
+        'image': 'assets/pictures/icons/simplilearn.png',
+        'title': 'Agile Scrum Master (Basic)',
+        'from': 'Simplilearn',
+        'url': 'https://simpli-web.app.link/e/Sek4Fc2YuRb'
+    },
+    {
         'image': 'assets/pictures/icons/hacker-rank.png',
         'title': 'Java (Basic)',
         'from': 'Hacker Rank',
