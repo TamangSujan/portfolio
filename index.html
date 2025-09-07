@@ -9,27 +9,27 @@
     <title>Portfolio | Modern Developer</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="sidebar.css"/>
-    <link rel="stylesheet" type="text/css" href="profile.css"/>
-    <link rel="stylesheet" type="text/css" href="skills.css"/>
-    <link rel="stylesheet" type="text/css" href="certifications.css"/>
-    <link rel="stylesheet" type="text/css" href="projects.css"/>
-    <link rel="stylesheet" type="text/css" href="misc.css"/>
+    <link rel="stylesheet" type="text/css" href="core/profile/profile.css"/>
+    <link rel="stylesheet" type="text/css" href="core/skills/skills.css"/>
+    <link rel="stylesheet" type="text/css" href="core/certifications/certifications.css"/>
+    <link rel="stylesheet" type="text/css" href="core/projects/projects.css"/>
+    <link rel="stylesheet" type="text/css" href="core/experiments/experiments.css"/>
     <link rel="stylesheet" type="text/css" href="dock.css"/>
     <link rel="stylesheet" type="text/css" href="global.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/x-icon" href="assets/pictures/favicon.png"/>
+    <link rel="icon" type="image/x-icon" href="resources/assets/pictures/favicon.png"/>
 </head>
 <body>
 <div class="main_box">
     <div class="side_bar" id="side_bar">
         <div class="side_bar_profile_image">
-            <img src="assets/pictures/profile/profile.jpg" alt="Profile">
+            <img src="resources/assets/pictures/profile/profile.jpg" alt="Profile">
         </div>
         <div class="side_bar_button" onclick="toggleDiv(0)">Profile</div>
         <div class="side_bar_button" onclick="toggleDiv(1)">Skills</div>
         <div class="side_bar_button" onclick="toggleDiv(2)">Certifications</div>
         <div class="side_bar_button" onclick="toggleDiv(3)">Projects</div>
-        <div class="side_bar_button" onclick="toggleDiv(4)">Misc</div>
+        <div class="side_bar_button" onclick="toggleDiv(4)">Experiments</div>
         <div class="side_bar_button" id="dock_caller" onclick="dock()">Dock</div>
     </div>
     <div class="content_box">
@@ -37,7 +37,7 @@
         <div class="center_box" id="center_box">
             <div class="home">
                 <div class="profile_cover">
-                    <img src="assets/pictures/profile/cover.jpg" alt="SM">
+                    <img src="resources/assets/pictures/profile/cover.jpg" alt="SM">
                 </div>
                 <div class="profile_description" id="profile_description"></div>
             </div>
@@ -55,13 +55,12 @@
                 <div class="major_projects" id="major_projects"></div>
                 <div class="glue"></div>
             </div>
-            <div class="misc">
-                <div class="video">
-                    <video controls>
-                        <source src="assets/videos/Terminal%20Chat.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+            <div class="experiments">
+                <div class="experiments-navbar">
+                    <div>Experiments</div>
+                    <select class="experiments-popup" id="experiments-popup"></select>
                 </div>
+                <div class="experiments-content" id="experiments-content"></div>
             </div>
         </div>
     </div>
@@ -86,11 +85,11 @@
     </div>
 </div>
 <script src="script.js" type="text/javascript"></script>
-<script src="profile.js" type="text/javascript"></script>
-<script src="skills.js" type="text/javascript"></script>
-<script src="certifications.js" type="text/javascript"></script>
-<script src="projects.js" type="text/javascript"></script>
-<script src="misc.js" type="text/javascript"></script>
+<script src="core/profile/profile.js" type="text/javascript"></script>
+<script src="core/skills/skills.js" type="text/javascript"></script>
+<script src="core/certifications/certifications.js" type="text/javascript"></script>
+<script src="core/projects/projects.js" type="text/javascript"></script>
+<script src="core/experiments/experiments.js" type="text/javascript"></script>
 <script src="init.js" type="text/javascript"></script>
 </body>
 </html>

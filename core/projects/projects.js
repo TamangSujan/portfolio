@@ -1,6 +1,6 @@
 let projects = [
     {
-        'logo': 'assets/pictures/icons/central-law-library.png',
+        'logo': 'resources/assets/pictures/icons/central-law-library.png',
         'title': 'Central Law Library',
         'association': 'Code Himalaya',
         'association_url': 'https://codehimalaya.com/',
@@ -13,7 +13,7 @@ let projects = [
             'Through my work on <b>Central Law Library</b>, I gained valuable experience in crafting secured application.'
     },
     {
-        'logo': 'assets/pictures/icons/ssf.png',
+        'logo': 'resources/assets/pictures/icons/ssf.png',
         'title': 'Social Security Fund',
         'association': 'Code Himalaya',
         'association_url': 'https://codehimalaya.com/',
@@ -27,7 +27,7 @@ let projects = [
             'Through my work on <b>Social Security Fund</b>, I gained valuable experience in crafting user-friendly applications that bridge the gap between insecurity in future finance.'
     },
     {
-        'logo': 'assets/pictures/icons/bahmni.png',
+        'logo': 'resources/assets/pictures/icons/bahmni.png',
         'title': 'Bahmni Module (OpenMRS)',
         'association': 'Ayata Inc.',
         'association_url': 'https://ayata.com.np/',
@@ -41,7 +41,7 @@ let projects = [
             'Through my work on <b>OpenMRS</b>, I gained valuable experience in crafting and exploring knowledge empowered from many people.'
     },
     {
-        'logo': 'assets/pictures/icons/asha.png',
+        'logo': 'resources/assets/pictures/icons/asha.png',
         'title': 'Asha Connect',
         'association': 'Ayata Inc.',
         'association_url': 'https://ayata.com.np/',
@@ -53,7 +53,7 @@ let projects = [
             'My role in the project was to convert the running project on Node.js to Java platform with Spring Boot framework. Through my work on "Asha Connect," I gained valuable experience in crafting user-friendly applications that bridge the gap between health worker and technology.'
     },
     {
-        'logo': 'assets/pictures/icons/algorithm.png',
+        'logo': 'resources/assets/pictures/icons/algorithm.png',
         'title': 'Algorithm (Personal)',
         'association': 'Self',
         'association_url': 'https://sujanmoktan.com.np',
@@ -75,7 +75,7 @@ let projects = [
             '<b>P.S.</b> There exist none alogorithm which suits for every problem. One must select carefully as each algorithm has pros and cons.'
     },
     {
-        'logo': 'assets/pictures/icons/design-pattern.png',
+        'logo': 'resources/assets/pictures/icons/design-pattern.png',
         'title': 'Design Pattern (Personal)',
         'association': 'Self',
         'association_url': 'https://sujanmoktan.com.np',
@@ -94,7 +94,7 @@ let projects = [
             'Credit: <b><a href="https://refactoring.guru/design-patterns" target="_blank">Refactoring Guru</a></b> provides really awesome content which makes it easier to understant design pattern.'
     },
     {
-        'logo': 'assets/pictures/icons/web-server.png',
+        'logo': 'resources/assets/pictures/icons/web-server.png',
         'title': 'J Web Server (Personal)',
         'association': 'Self',
         'association_url': 'https://sujanmoktan.com.np',
@@ -115,7 +115,7 @@ let projects = [
             'The sole purpose of this project is to understand how request and response are being done in real world projects.'
     },
     {
-        'logo': 'assets/pictures/icons/interpreter.png',
+        'logo': 'resources/assets/pictures/icons/interpreter.png',
         'title': 'JLox - Interpreter (Knowledge)',
         'association': 'Self',
         'association_url': 'https://sujanmoktan.com.np',
@@ -145,6 +145,8 @@ function createProjects(page){
     removeProjects();
     let start = (page - 1) * pageSize;
     let end = start + pageSize;
+    if(end > projects.length)
+        end = projects.length;
     let parent = document.getElementById("major_projects");
     for(let index=start; index<end; index++){
         let certification = createProjectModel(projects[index]);

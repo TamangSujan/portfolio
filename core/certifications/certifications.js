@@ -1,36 +1,36 @@
 let certifications = [
     {
-        'image': 'assets/pictures/icons/simplilearn.png',
+        'image': 'resources/assets/pictures/icons/simplilearn.png',
         'title': 'Aws Services (Fundamentals)',
         'from': 'Simplilearn',
         'url': 'https://simpli-web.app.link/e/jLtEDkYvQRb'
     },
     {
-        'image': 'assets/pictures/icons/simplilearn.png',
+        'image': 'resources/assets/pictures/icons/simplilearn.png',
         'title': 'Agile Scrum Master (Basic)',
         'from': 'Simplilearn',
         'url': 'https://simpli-web.app.link/e/Sek4Fc2YuRb'
     },
     {
-        'image': 'assets/pictures/icons/hacker-rank.png',
+        'image': 'resources/assets/pictures/icons/hacker-rank.png',
         'title': 'Java (Basic)',
         'from': 'Hacker Rank',
         'url': 'https://www.hackerrank.com/certificates/f4e8ad73bd80'
     },
     {
-        'image': 'assets/pictures/icons/solo-learn.png',
+        'image': 'resources/assets/pictures/icons/solo-learn.png',
         'title': 'Java (Intermediate)',
         'from': 'Solo Learn',
         'url': 'https://www.sololearn.com/en/certificates/CC-KX3DVASQ'
     },
     {
-        'image': 'assets/pictures/icons/solo-learn.png',
+        'image': 'resources/assets/pictures/icons/solo-learn.png',
         'title': 'SQL (Intermediate)',
         'from': 'Solo Learn',
         'url': 'https://www.sololearn.com/certificates/CC-3JCL1J2Z'
     },
     {
-        'image': 'assets/pictures/icons/hacker-rank.png',
+        'image': 'resources/assets/pictures/icons/hacker-rank.png',
         'title': 'SQL (Advance)',
         'from': 'Hacker Rank',
         'url': 'https://www.hackerrank.com/certificates/286a7908e710'
@@ -44,6 +44,8 @@ function createCertifications(page){
     removeCertifications();
     let start = (page - 1) * pageSize;
     let end = start + pageSize;
+    if(end > certifications.length)
+        end = certifications.length;
     let parent = document.getElementById("major_certifications");
     for(let index=start; index<end; index++){
         let certification = createCertificationModel(certifications[index]);

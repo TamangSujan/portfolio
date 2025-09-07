@@ -5,7 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/certifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pictures/experiments/s-utils/S-Util-1-1-Notepad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/musics/faded.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/musics/faded.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/backend-development.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/backend-development.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/coming-soon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/coming-soon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/algorithm.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/algorithm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/angular.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/angular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/api.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/asha.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/asha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/bahmni.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/bahmni.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/c++.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/c++.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/central-law-library.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/central-law-library.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/cucumber.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/cucumber.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/deep-learning.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/deep-learning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/design-pattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/design-pattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/docker.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/docker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/elastic-search.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/elastic-search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/firebase.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/firebase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/hacker-rank.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/hacker-rank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/interpreter.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/interpreter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/javascript.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/jenkins.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/jenkins.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/jmeter.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/jmeter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/json.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/json.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/jsp.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/jsp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/kibana.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/kibana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/linux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/mongodb.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/mongodb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/mysql.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/mysql.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/postgresql.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/postgresql.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/python.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/python.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/redis.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/redis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/selenium.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/selenium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/simplilearn.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/simplilearn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/solo-learn.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/solo-learn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/spring.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/spring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/ssf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/ssf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/ssf.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/ssf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/thymeleaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/thymeleaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/tomcat.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/tomcat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/web-server.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/web-server.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/websocket.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/websocket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/icons/windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/windows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/profile/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/profile/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/profile/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/profile/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/videos/Terminal Chat.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/videos/Terminal Chat.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certifications.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/certifications/certifications.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/certifications/certifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/calculator/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/calculator/calculator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/calculator/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/calculator/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/calculator/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/calculator/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/fibonacci/fibonacci.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/fibonacci/fibonacci.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/fibonacci/fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/fibonacci/fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/fibonacci/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/fibonacci/fibonacci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/notepad/notepad.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/notepad/notepad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/notepad/notepad.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/notepad/notepad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/notepad/notepad.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/notepad/notepad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/passwordgenerator/passgen.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/passwordgenerator/passgen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/passwordgenerator/passgen.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/passwordgenerator/passgen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/passwordgenerator/passgen.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/passwordgenerator/passgen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/sort/sort.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/sort/sort.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/sort/sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/sort/sort.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/sort/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/sort/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/experiments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/experiments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/profile/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/projects/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/projects/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/skills/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/skills/skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +109,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/assets/pictures/icons&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/pictures/experiments/s-utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\experiments\s-utils" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures\icons" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures\icons" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\core\misc" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\core\skills" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\core\projects" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\core\profile" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,9 +158,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-aba903c2" />
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -101,7 +188,9 @@
       <workItem from="1736455155042" duration="11000" />
       <workItem from="1741191577484" duration="1419000" />
       <workItem from="1741208888240" duration="494000" />
-      <workItem from="1742329703868" duration="72000" />
+      <workItem from="1742329703868" duration="729000" />
+      <workItem from="1751272311820" duration="64000" />
+      <workItem from="1757260519918" duration="8985000" />
     </task>
     <servers />
   </component>
