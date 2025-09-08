@@ -2,9 +2,9 @@ let experiments = [
     {
         'project-title': 'S-Util',
         'project': createSUtil,
-        'project-description': 'A Java project made using legacy swing API.',
-        'project-media-type': 'image',
-        'project-media-src': 'resources/assets/pictures/experiments/s-utils/S-Util-1-1-Notepad.png',
+        'project-description': 'A Java project made using legacy swing API in order to demonstrate modern looks for desktop application from Java.',
+        'project-media-type': 'video',
+        'project-media-src': 'resources/assets/videos/S-Util-1-1.mov',
     },
     {
         'project-title': 'Terminal Chat',
