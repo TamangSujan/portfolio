@@ -1,5 +1,12 @@
 let experiments = [
     {
+        'project-title': 'SAP',
+        'project': createSAP,
+        'project-description': 'SAP (Simple As Possible) is a virtual CPU made from java in order to simulate assembly program.',
+        'project-media-type': 'image',
+        'project-media-src': 'resources/assets/pictures/experiments/sap/SAP_Virtual_CPU.png',
+    },
+    {
         'project-title': 'S-Util',
         'project': createSUtil,
         'project-description': 'A Java project made using legacy swing API in order to demonstrate modern looks for desktop application from Java.',
@@ -8,7 +15,7 @@ let experiments = [
     },
     {
         'project-title': 'Terminal Chat',
-        'project': createTest,
+        'project': createTerminalChat,
         'project-description': 'A Java project made from scratch in order to communicate between client and server.',
         'project-media-type': 'video',
         'project-media-src': 'resources/assets/videos/Terminal Chat.mp4',
@@ -45,18 +52,25 @@ function toggleExperiment(value){
     }
 }
 
+function createSAP(){
+    let sap = document.createElement('div');
+    loadExperimentChildContent(sap, experiments[0]);
+    experimentContent.appendChild(sap);
+    experimentContentChild = sap;
+}
+
 function createSUtil(){
     let sutil = document.createElement('div');
-    loadExperimentChildContent(sutil, experiments[0]);
+    loadExperimentChildContent(sutil, experiments[1]);
     experimentContent.appendChild(sutil);
     experimentContentChild = sutil;
 }
 
-function createTest(){
-    let test = document.createElement('div');
-    loadExperimentChildContent(test, experiments[1])
-    experimentContent.appendChild(test);
-    experimentContentChild = test;
+function createTerminalChat(){
+    let terminalChat = document.createElement('div');
+    loadExperimentChildContent(terminalChat, experiments[2])
+    experimentContent.appendChild(terminalChat);
+    experimentContentChild = terminalChat;
 }
 
 function loadExperimentChildContent(child, experiment){

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/assets/pictures/experiments/sap/SAP_Virtual_CPU.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/experiments/experiments.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/experiments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/pictures/experiments/s-utils/S-Util-1-1-Notepad.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/pictures/experiments/s-utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/videos&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\videos" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\experiments\s-utils" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures\icons" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures" />
@@ -113,6 +117,10 @@
       <workItem from="1751272311820" duration="64000" />
       <workItem from="1757260519918" duration="9460000" />
       <workItem from="1757318701168" duration="5000" />
+      <workItem from="1757324767629" duration="259000" />
+      <workItem from="1757662638113" duration="619000" />
+      <workItem from="1757786737439" duration="31000" />
+      <workItem from="1759421486832" duration="372000" />
     </task>
     <servers />
   </component>
