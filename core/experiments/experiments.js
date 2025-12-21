@@ -1,5 +1,12 @@
 let experiments = [
     {
+        'project-title': 'Intel 8008 Emulator',
+        'project': createIntel8008Emulator,
+        'project-description': 'Intel 8008 Emulator is made from java in order to simulate Intel 8008 programs.',
+        'project-media-type': 'image',
+        'project-media-src': 'resources/assets/pictures/experiments/intel8008/Intel8008.png',
+    },
+    {
         'project-title': 'SAP',
         'project': createSAP,
         'project-description': 'SAP (Simple As Possible) is a virtual CPU made from java in order to simulate assembly program.',
@@ -52,23 +59,30 @@ function toggleExperiment(value){
     }
 }
 
+function createIntel8008Emulator(){
+    let intel8008Emulator = document.createElement('div');
+    loadExperimentChildContent(intel8008Emulator, experiments[0]);
+    experimentContent.appendChild(intel8008Emulator);
+    experimentContentChild = intel8008Emulator;
+}
+
 function createSAP(){
     let sap = document.createElement('div');
-    loadExperimentChildContent(sap, experiments[0]);
+    loadExperimentChildContent(sap, experiments[1]);
     experimentContent.appendChild(sap);
     experimentContentChild = sap;
 }
 
 function createSUtil(){
     let sutil = document.createElement('div');
-    loadExperimentChildContent(sutil, experiments[1]);
+    loadExperimentChildContent(sutil, experiments[2]);
     experimentContent.appendChild(sutil);
     experimentContentChild = sutil;
 }
 
 function createTerminalChat(){
     let terminalChat = document.createElement('div');
-    loadExperimentChildContent(terminalChat, experiments[2])
+    loadExperimentChildContent(terminalChat, experiments[3])
     experimentContent.appendChild(terminalChat);
     experimentContentChild = terminalChat;
 }
