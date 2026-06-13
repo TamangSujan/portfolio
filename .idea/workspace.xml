@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/pictures/experiments/intel8008/Intel8008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/knowledge/knowledge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/knowledge/knowledge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/smart-data-solutions.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/experiments/experiments.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/experiments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/projects/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/projects/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/pictures/profile/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/profile/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,11 +54,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/pictures/experiments/intel8008",
+    "last_opened_file_path": "C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/pictures/icons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\icons" />
+      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\profile" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\experiments\intel8008" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\videos" />
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\experiments\s-utils" />
-      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures\icons" />
-      <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\assets\pictures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Victus\OneDrive\Documents\Projects\Portfolio\portfolio\resources\assets\pictures\experiments\sap" />
@@ -121,7 +137,9 @@
       <workItem from="1757662638113" duration="619000" />
       <workItem from="1757786737439" duration="31000" />
       <workItem from="1759421486832" duration="960000" />
-      <workItem from="1766353281404" duration="316000" />
+      <workItem from="1766353281404" duration="486000" />
+      <workItem from="1766406869582" duration="14000" />
+      <workItem from="1781348445383" duration="3661000" />
     </task>
     <servers />
   </component>

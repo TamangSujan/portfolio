@@ -1,5 +1,14 @@
 let projects = [
     {
+        'logo': 'resources/assets/pictures/icons/smart-data-solutions.jpg',
+        'title': 'Clearinghouse - Smart Data Stream',
+        'association': 'Smart Data Solutions',
+        'association_url': 'https://sdata.us/',
+        'description': '<b>Smart Data Solutions</b>, AI-Native Healthcare Automation Platform delivers solutions across the - operational lifecycle, from intake through resolution.\n' +
+            '<br><br>' +
+            '<b>Smart Data Solutions</b> tools, solutions, and continued research into new AI and machine learning processes help payers nationwide reduce costs, achieve greater process efficiency, and reduce turnaround times.  \n'
+    },
+    {
         'logo': 'resources/assets/pictures/icons/central-law-library.png',
         'title': 'Central Law Library',
         'association': 'Code Himalaya',
@@ -51,92 +60,7 @@ let projects = [
             '<b>Asha Connect</b> is designed to provide health workers with a easy experience to record medical and demographic information.\n' +
             '<br><br>' +
             'My role in the project was to convert the running project on Node.js to Java platform with Spring Boot framework. Through my work on "Asha Connect," I gained valuable experience in crafting user-friendly applications that bridge the gap between health worker and technology.'
-    },
-    {
-        'logo': 'resources/assets/pictures/icons/algorithm.png',
-        'title': 'Algorithm (Personal)',
-        'association': 'Self',
-        'association_url': 'https://sujanmoktan.com.np',
-        'project_url': 'https://github.com/TamangSujan/c-algorithm',
-        'description': '<b>Algorithm</b> is a fundamental, vital and core knowledge needed for any developer in programming field.\n' +
-            '<br><br>' +
-            'It enhances one logical, reasoning and critical thinking. Writing algorithm using <b>C</b> language, truly increase ones skills as you are in charge of handling pointers, allocating and deallocating memory.\n' +
-            '<br><br>' +
-            'You can find the source code from <a href="https://github.com/TamangSujan/c-algorithm" target="_blank">here</a>.\n' +
-            '<br><br>' +
-            'So far I have written: \n' +
-            '<br><b>Sort</b>: Bubble | Insertion | Selection | Counting | Quick | Merge | Radix <br>' +
-            '<b>Search</b>: Linear | Binary<br>' +
-            '<b>Hash</b>: Hash Set | Hash Map<br>' +
-            '<b>List</b>: Singly Linked List | Doubly Linked List<br>' +
-            '<b>Tree</b>: Avl Tree<br>' +
-            '<b>Others</b>: Stack | Queue' +
-            '<br><br>' +
-            '<b>P.S.</b> There exist none alogorithm which suits for every problem. One must select carefully as each algorithm has pros and cons.'
-    },
-    {
-        'logo': 'resources/assets/pictures/icons/design-pattern.png',
-        'title': 'Design Pattern (Personal)',
-        'association': 'Self',
-        'association_url': 'https://sujanmoktan.com.np',
-        'project_url': 'https://github.com/TamangSujan/design-pattern',
-        'description': 'Design Pattern is a technique of writing solution for a re-occuring problem. The pattern is not a specific code but a general concept for solving a problem.\n' +
-            '<br>Pattern are often confused with algorithms. Algorithm describes clear set of instructions to achieve a goal while pattern is more high level description of a solution.' +
-            '<br><br>' +
-            'Pattern consist of:\n' +
-            '<ul>' +
-            '<li><b>Intent</b>: Describes both problem and solution.</li>'+
-            '<li><b>Structure</b>: How classes are related.</li>'+
-            '<li><b>Code</b>: To grasp it easier.</li>'+
-            '</ul>'+
-            '<br>' +
-            'It is written purely in Java. You can find source code <a href="https://github.com/TamangSujan/design-pattern" target="_blank">here</a>.' +
-            'Credit: <b><a href="https://refactoring.guru/design-patterns" target="_blank">Refactoring Guru</a></b> provides really awesome content which makes it easier to understant design pattern.'
-    },
-    {
-        'logo': 'resources/assets/pictures/icons/web-server.png',
-        'title': 'J Web Server (Personal)',
-        'association': 'Self',
-        'association_url': 'https://sujanmoktan.com.np',
-        'project_url': 'https://github.com/TamangSujan/web-server/',
-        'description': 'J Web Server is a personal project in order to challenge self and leverage knowledge and skills for web technologies.\n' +
-            '<br><br>' +
-            'It is written purely in Java without any external libraries. Techniques like <b>Dynamic Class Loading</b>, <b>Reflection</b>, <b>Annotation</b> etc. is used.\n' +
-            'You can find source code <a href="https://github.com/TamangSujan/web-server/" target="_blank">here</a>.' +
-            '<br><br>' +
-            '<b>Features</b>' +
-                '<ul>' +
-                    '<li><b>@GetApi</b>(url="/some-endpoint"): Simple basic get request can be made using this annotation with url value.</li>' +
-                    '<li><b>@ApiRequestParam</b>(key="someKeyName"): Can be written inside function to map url query to function param for <b>@GetApi</b></li>' +
-                    '<li><b>@ApiPathVariable</b>(name="someKeyName"): Can be written inside function to map url variable to function param for <b>@GetApi</b>.' +
-                    '<li>Check out READ.me </li>' +
-            '</ul>' +
-            '<br>' +
-            'The sole purpose of this project is to understand how request and response are being done in real world projects.'
-    },
-    {
-        'logo': 'resources/assets/pictures/icons/interpreter.png',
-        'title': 'JLox - Interpreter (Knowledge)',
-        'association': 'Self',
-        'association_url': 'https://sujanmoktan.com.np',
-        'project_url': 'https://github.com/TamangSujan/jlox',
-        'description': 'JLox - Interpreter is a java based interpreter which is handcrafted by Rober Nystrom in his web page.\n' +
-            '<br><br>' +
-            'It is written purely in Java without any external libraries. Techniques like <b>Recursive Descent Parser</b>, <b>Auto Code Generation</b> is used in his page.\n' +
-            'Auto generation of code has been omitted on my source code in order to understand what is really going on.' +
-            'You can find this knowledge from <a href="https://craftinginterpreters.com/a-tree-walk-interpreter.html" target="_blank">here</a>.' +
-            'You can find my source code <a href="https://github.com/TamangSujan/jlox" target="_blank">here</a>.' +
-            '<br><br>' +
-            '<b>Features</b>' +
-            '<ul>' +
-            '<li>Inheritance</li>' +
-            '<li>Class</li>' +
-            '<li>Methods</li>' +
-            '<li>Variable</li>' +
-            '</ul>' +
-            '<br>' +
-            'The sole purpose of this project is to understand how interpreter is working behind the scene.'
-    },
+    }
 ]
 
 function createProjects(page){

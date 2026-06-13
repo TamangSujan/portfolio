@@ -1,6 +1,6 @@
-var activeButton = document.getElementById("side_bar").children;
+const activeButton = document.getElementById("side_bar").children;
 
-var contentBox = document.getElementById("center_box").children;
+const contentBox = document.getElementById("center_box").children;
 
 //Show only first toggle ie skills
 for(let i=1; i<contentBox.length; i++){
