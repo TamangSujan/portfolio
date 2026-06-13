@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/knowledge/knowledge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/knowledge/knowledge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/pictures/icons/smart-data-solutions.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/projects/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/projects/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/pictures/profile/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/pictures/profile/cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +128,7 @@
       <workItem from="1759421486832" duration="960000" />
       <workItem from="1766353281404" duration="486000" />
       <workItem from="1766406869582" duration="14000" />
-      <workItem from="1781348445383" duration="3661000" />
+      <workItem from="1781348445383" duration="4585000" />
     </task>
     <servers />
   </component>
