@@ -1,5 +1,8 @@
 let question = '';
-let answer = 'Chat Bot coming soon!';
+let answer = '';
+const MAX_GENERATED_TOKENS = 40;
+const gpt = new Gpt(64, 4, 2, 128, 32);
+let isAnswering = false;
 
 function createChatBot( ){
     let container = document.getElementById("chat_bot_container");
@@ -36,8 +39,12 @@ function updateQuestion( ){
 }
 
 function submitQuestion( ){
+    if( question === '' ){
+        answer = 'Nothing to answer!';
+    }else{
+        answer = gpt.generate( "Q: " + question + "\nA:" );
+    }
     typeWriteAnswer( );
-    console.log()
 }
 
 function submitQuestionOnEnter( event ){
@@ -55,9 +62,13 @@ function answerArea( ){
 }
 
 function typeWriteAnswer( ){
-    let answerArea = document.getElementById("answer_area");
-    answerArea.textContent = '';
-    typeWrite( answerArea, answer, 0);
+    if( !isAnswering ){
+        isAnswering = true;
+        let answerArea = document.getElementById("answer_area");
+        answerArea.textContent = '';
+        typeWrite( answerArea, answer, 0);
+    }
+
 }
 
 function typeWrite( whereToType, whatToType, currentCharacterIndex ){
@@ -65,7 +76,9 @@ function typeWrite( whereToType, whatToType, currentCharacterIndex ){
         whereToType.textContent += whatToType.charAt( currentCharacterIndex++ );
         setTimeout(function(){
             typeWrite( whereToType, whatToType, currentCharacterIndex );
-        }, getRandomValueBetween(100, 200));
+        }, getRandomValueBetween(20, 150));
+    }else{
+        isAnswering = false;
     }
 }
 
