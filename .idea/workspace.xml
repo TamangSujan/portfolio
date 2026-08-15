@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="" />
+    <list default="true" id="e48bd40b-b627-40cf-ad6f-85b04366701e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/chat_bot/chat_bot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/chat_bot/chat_bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/experiments/experiments.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/experiments/experiments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/init.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,6 +58,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Victus/OneDrive/Documents/Projects/Portfolio/portfolio/resources/assets/pictures/icons",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,7 +137,9 @@
       <workItem from="1759421486832" duration="960000" />
       <workItem from="1766353281404" duration="486000" />
       <workItem from="1766406869582" duration="14000" />
-      <workItem from="1781348445383" duration="4585000" />
+      <workItem from="1781348445383" duration="6849000" />
+      <workItem from="1781451883238" duration="38000" />
+      <workItem from="1786783038373" duration="4730000" />
     </task>
     <servers />
   </component>

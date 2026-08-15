@@ -7,14 +7,7 @@ let experiments = [
         'project-media-src': 'resources/assets/pictures/experiments/intel8008/Intel8008.png',
     },
     {
-        'project-title': 'SAP',
-        'project': createSAP,
-        'project-description': 'SAP (Simple As Possible) is a virtual CPU made from java in order to simulate assembly program.',
-        'project-media-type': 'image',
-        'project-media-src': 'resources/assets/pictures/experiments/sap/SAP_Virtual_CPU.png',
-    },
-    {
-        'project-title': 'S-Util',
+        'project-title': 'Swing-App',
         'project': createSUtil,
         'project-description': 'A Java project made using legacy swing API in order to demonstrate modern looks for desktop application from Java.',
         'project-media-type': 'video',

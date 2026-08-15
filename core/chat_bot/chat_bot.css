@@ -1,0 +1,42 @@
+.chat_bot {
+    height: 100%;
+}
+
+.chat_bot_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    row-gap: 0.75em;
+    height: inherit;
+}
+
+.question_bar{
+    display: flex;
+    padding: 0.5em 1em;
+    background: white;
+    border-radius: 1.5em;
+}
+
+.question_area {
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+
+.submit_question_button:hover {
+    cursor: pointer;
+}
+
+.answer_area{
+
+}
+
+@media (min-width: 0px) {
+    .question_bar{
+        width: 60%;
+    }
+}
