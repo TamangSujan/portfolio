@@ -36,7 +36,7 @@ function createPopup(popup){
 }
 
 function initExperiment(){
-    let popup = document.getElementById('experiments-popup');
+    var popup = document.getElementById('experiments-popup');
     popup.setAttribute("onchange", "toggleExperiment(this.selectedIndex)");
     createPopup(popup);
     createSUtil();
@@ -59,23 +59,16 @@ function createIntel8008Emulator(){
     experimentContentChild = intel8008Emulator;
 }
 
-function createSAP(){
-    let sap = document.createElement('div');
-    loadExperimentChildContent(sap, experiments[1]);
-    experimentContent.appendChild(sap);
-    experimentContentChild = sap;
-}
-
 function createSUtil(){
     let sutil = document.createElement('div');
-    loadExperimentChildContent(sutil, experiments[2]);
+    loadExperimentChildContent(sutil, experiments[1]);
     experimentContent.appendChild(sutil);
     experimentContentChild = sutil;
 }
 
 function createTerminalChat(){
     let terminalChat = document.createElement('div');
-    loadExperimentChildContent(terminalChat, experiments[3])
+    loadExperimentChildContent(terminalChat, experiments[2])
     experimentContent.appendChild(terminalChat);
     experimentContentChild = terminalChat;
 }
