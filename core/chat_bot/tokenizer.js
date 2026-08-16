@@ -41,11 +41,15 @@ class Tokenizer {
             if (w === this.PAD || w === this.EOS) {
                 continue;
             }
-            let isPunctuation = w.length === 1 && !this.isLetterOrDigit(w.charAt(0));
-            if (string.length > 0 && !isPunctuation) {
-                string += (' ');
+            if( w === 'i' ){
+                w = 'I';
             }
-            string += w;
+            let isPunctuation = !this.isLetterOrDigit(w);
+            if(isPunctuation){
+                string += w + " ";
+            }else{
+                string += " " + w;
+            }
         }
         return string;
     }
@@ -55,11 +59,11 @@ class Tokenizer {
         return this.ID_WORD.get(id);
     }
 
-    isLetterOrDigit( char ){
-        return (char >= 65 && char <=90) || (char >= 97 && char <=122) || (char >= 48 && char <=57);
-    }
-
-    vocabularySize() {
-        return this.WORD_ID.size;
+    isLetterOrDigit(char) {
+        if (!char) return false;
+        const code = char.charCodeAt(0);
+        return (code >= 65 && code <= 90) ||
+            (code >= 97 && code <= 122) ||
+            (code >= 48 && code <= 57);
     }
 }

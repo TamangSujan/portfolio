@@ -38,7 +38,11 @@ class Gpt {
             generatedTokens.push(nextId);
         }
         let answer = this.tokenizer.decode(generatedTokens);
-        return answer === '' ? "I have not learned to provide answer regarding the context." : answer;
+        if( answer === '' ){
+            return "Sorry, currently I do not understand your question.";
+        }
+        answer = answer.trim();
+        return answer.charAt(0).toUpperCase() + answer.slice(1) + ".";
     }
 
     forwardLogits( tokenIds ){
